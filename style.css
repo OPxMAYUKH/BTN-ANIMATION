@@ -1,0 +1,23 @@
+body{
+    background: #000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 50px;
+    transition: 0.5s;
+    border:#fff 4px solid;
+    border-radius: 40px;
+    padding: 2mm;
+}
+a:hover{
+    background: #fff;
+    color: #000;
+    box-shadow: 0 0 30px #fff, 0 0 50px #fff, 0 0 30px #fff;
+}
